@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Istria</string>
+    <string name="action_settings">设置</string>
+    <string name="action_friends">雾霾圈</string>
+    <string name="action_sales">看看口罩吧</string>
+    <string name="action_share">分享</string>
+    <string name="air_quality">空气质量</string>
+    <string name="pm2.5">PM2.5</string>
+    <string name="car_level">洗车指数</string>
+    <string name="cloth_level">穿衣指数</string>
+    <string name="humidity_level">湿度</string>
+    <string name="du"> °</string>
+    <string name="login_register">登录/注册</string>
+    <string name="tools">工具</string>
+
+
+    <string name="Monday">星期一</string>
+    <string name="Tuesday">星期二</string>
+    <string name="Wednesday">星期三</string>
+    <string name="Thursday">星期四</string>
+    <string name="Friday">星期五</string>
+    <string name="Saturday">星期六</string>
+    <string name="Sunday">星期日</string>
+    <string name="today">今天</string>
+    <string name="login_text">登录您的账户</string>
+    <string name="login_hint">请输入您的手机号码</string>
+    <string name="login_pass">请输入您的密码</string>
+    <string name="login_pass_again">请再次输入密码</string>
+    <string name="login_hint_error">请输入正确的手机号码</string>
+    <string name="vertification_code">请输入验证码</string>
+    <string name="login">登录</string>
+
+    <string name="register">注册</string>
+    <string name="login_question">登录时遇到问题?</string>
+    <string name="first_login">第一次访问雾霾卫士?</string>
+    <string name="register_new">注册新用户</string>
+    <string name="anotherBack">再按一次退出程序</string>
+    <string name="clickGetVerificationCode">获取验证码</string>
+    <string name="lookForAllTitle">雾霾卫士·网友评论</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="send_to"> 分享到</string>
+
+    <string name="login_successful">登录成功</string>
+    <string name="login_failed">登录失败</string>
+
+    <string name="self_information">2个人信息</string>
+    <string name="self_information_d">名字、姓氏、昵称等</string>
+    <string name="account_security">1账户</string>
+    <string name="account_secret_key">2账户设置</string>
+    <string name="account_secret_key_d">退出登录、管理账户密钥</string>
+    <string name="security_setting">2用户订单</string>
+    <string name="security_setting_d">查看用户订单信息</string>
+    <string name="recent_activity">2最近活动</string>
+    <string name="recent_activity_d">发现可疑活动</string>
+    <string name="camera">拍摄</string>
+    <string name="gallery">从相册选择</string>
+    <string name="google_messenger_title">Messenger</string>
+    <string name="get_photo">获取图片</string>
+    <string name="please_choose">请选择</string>
+    <string name="second">秒</string>
+    <string name="resend_msg">重新获取</string>
+    <string name="register_fail">该账户已注册</string>
+    <string name="say_something">说点什么吧...</string>
+    <string name="submit">提交</string>
+    <string name="Beijing">北京</string>
+    <string name="Shanghai">上海</string>
+    <string name="Guangzhou">广州</string>
+
+    <string name="post_price">快递:</string>
+    <string name="sold_num">月销：</string>
+    <string name="bi">笔</string>
+    <string name="goods_prop">产品参数:</string>
+    <string name="add_to_shoppingcert">加入购物车</string>
+    <string name="buy_right_now">立即购买</string>
+    <string name="buyer_name">收货人:</string>
+    <string name="buyer_address">收货地址:</string>
+    <string name="transport_fee">运费：</string>
+    <string name="count_price">合计：</string>
+    <string name="submit_order">提交订单</string>
+    <string name="more_info">备注：</string>
+
+    <string name="comments">评价</string>
+    <string name="finish_order">交易成功</string>
+    <string name="start_send">已发货</string>
+    <string name="new_password">新密码:</string>
+    <string name="old_password">旧密码:</string>
+    <string name="new_password_again">再次输入:</string>
+</resources>

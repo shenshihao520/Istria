@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_air_level"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="@string/air_quality"/>
+            <TextView
+                android:id="@+id/air_quality"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="重度污染"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="@string/pm2.5"/>
+            <TextView
+                android:id="@+id/pm_25"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="271"/>
+
+        </LinearLayout>
+        <View
+            android:id="@+id/progressPM25"
+            android:layout_width="280dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/progressbar" />
+
+        <ImageView
+            android:id="@+id/arrow_PM"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:background="@mipmap/arrow_up_blue"/>
+
+    </LinearLayout>
+
+</LinearLayout>

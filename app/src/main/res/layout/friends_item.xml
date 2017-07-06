@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/userHeadIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/sunset"/>
+
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ChinaShen"
+            android:layout_toRightOf="@+id/userHeadIcon"
+            android:layout_toEndOf="@+id/userHeadIcon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beijing"
+            android:textSize="10sp"
+            android:layout_below="@+id/tv_userName"
+            android:layout_alignLeft="@+id/tv_userName"
+            android:layout_alignStart="@+id/tv_userName" />
+
+        <TextView
+            android:id="@+id/tv_submitTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3hours ago"
+            android:layout_marginLeft="10dp"
+            android:textSize="10sp"
+            android:layout_below="@+id/tv_userName"
+            android:layout_toRightOf="@+id/tv_location"
+            android:layout_toEndOf="@+id/tv_location" />
+
+        <ImageView
+            android:id="@+id/zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/night_zan_0"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv_goodTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="273"
+            android:textSize="12sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/zan"
+            android:layout_toStartOf="@+id/zan" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="10dp"
+            android:maxLines="5"
+            android:text="今天看新闻报道说某个地方的农民种菜赶上国家好政策发家致富了，而我们这边今年种的青瓜没人4毛一斤要，都摘来喂牛！到底是信新闻还是信自己的眼睛啊？辛苦一年流完汗接着又流泪，今年又白忙了！看着心疼啊！国家一直鼓励农民种地，到头来花钱买伤心，综合国情，中国现在也只能算是个农业国家，国家何时才能出台真正的惠农，帮农政策啊？万丈高楼平地起，是不是该把这万丈高楼的地基给搞好啊！别把自己定位的太高了！"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_clickForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全文"
+            android:textColor="@android:color/holo_blue_light"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:src="@mipmap/plus49" />
+    </LinearLayout>
+</LinearLayout>

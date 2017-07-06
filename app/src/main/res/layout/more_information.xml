@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/im_car_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_car_level" />
+
+            <TextView
+                android:id="@+id/string_car_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/im_car_level"
+                android:text="@string/car_level"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/car_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/string_car_level"
+                android:layout_toRightOf="@id/im_car_level"
+                android:layout_marginTop="3dp"
+                android:text="10级"
+                android:textSize="14dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/im_cloth_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_clothes_level" />
+
+            <TextView
+                android:id="@+id/string_cloth_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/im_cloth_level"
+                android:text="@string/cloth_level"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/cloth_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/string_cloth_level"
+                android:layout_toRightOf="@id/im_cloth_level"
+                android:layout_marginTop="3dp"
+                android:text="10级"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/im_wind_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_wind_level" />
+
+            <TextView
+                android:id="@+id/string_wind_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/im_wind_level"
+                android:text="北风"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/wind_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/string_wind_level"
+                android:layout_toRightOf="@id/im_wind_level"
+                android:layout_marginTop="3dp"
+                android:text="10级"
+                android:textSize="14dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/im_humidity_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_humidity_level" />
+
+            <TextView
+                android:id="@+id/string_humidity_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/im_humidity_level"
+                android:text="@string/humidity_level"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/humidity_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/string_humidity_level"
+                android:layout_toRightOf="@id/im_humidity_level"
+                android:layout_marginTop="3dp"
+                android:text="10级"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
